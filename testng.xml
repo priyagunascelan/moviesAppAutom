@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="MovieTestSuite" >
+    <test name="MoviePageTest" >
+        <classes>
+            <class name="stepdefinitions.LoginPageTest" />
+            <class name="stepdefinitions.HomePageTest" />
+            <class name="stepdefinitions.HeaderPageTest" />
+            <class name="stepdefinitions.PopularPageTest" />
+            <class name="stepdefinitions.SearchPageTest" />
+            <class name="stepdefinitions.MovieDetailsPageTest" />
+            <class name="stepdefinitions.AccountPageTest" />
+        </classes>
+    </test>
+</suite>
